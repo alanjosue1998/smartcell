@@ -18,7 +18,3 @@ node Node Package Management
 Dependencies babel 
 
 `npm i @babel/cli @babel/core @babel/node @babel/preset-env morgan nodemon -D`
-
-
-# smartcell
-# smartcell
