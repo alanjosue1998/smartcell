@@ -18,3 +18,5 @@ node Node Package Management
 Dependencies babel 
 
 `npm i @babel/cli @babel/core @babel/node @babel/preset-env morgan nodemon -D`
+
+You need to create an `.env` file and fill it with your custom values

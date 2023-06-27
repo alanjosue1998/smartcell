@@ -1,9 +1,8 @@
-import { Router, response } from "express";
+import { Router } from "express";
+import { methods as phonesController } from "./../controllers/phones.controller";
 
 const router = Router();
 
-router.get("/", (request, response) => {
-    response.send("Phones");
-});
+router.get("/", phonesController.getPhones);
 
 export default router;
