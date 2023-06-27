@@ -12,6 +12,6 @@ app.set("port", 4000);
 app.use(morgan("dev"));
 
  // Routes
- app.use(phonesRoutes);
+ app.use("/api/phones", phonesRoutes);
 
 export default app;
