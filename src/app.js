@@ -6,7 +6,7 @@ import phonesRoutes from "./routes/phones.routes";
 const app=express();
 
 // Settings 
-app.set("port", 4000);
+app.set("port", 5000);
 
 // Middleware
 app.use(morgan("dev"));
